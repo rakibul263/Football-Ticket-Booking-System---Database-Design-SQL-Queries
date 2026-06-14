@@ -190,7 +190,7 @@ WHERE
   full_name ILIKE 'Tanvir%'
   OR full_name ILIKE '%Haque%';
 
-  -- Query 3: Retrieve all booking records where the payment status is missing (NULL), replacing the empty result with 'Action Required'.
+-- Query 3: Retrieve all booking records where the payment status is missing (NULL), replacing the empty result with 'Action Required'.
 SELECT
   booking_id,
   user_id,
